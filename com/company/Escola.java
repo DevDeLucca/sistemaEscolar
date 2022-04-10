@@ -1,17 +1,44 @@
-package com.company;
-package com.pessoa;
+package com.com.company;
 
 
+import com.com.tipoPessoa.Aluno;
 
-public class Escola extends pessoa {
+public class Escola extends Aluno {
 
-    public static void Escola ( String [] args) {
+    private String materiasEletivas;
+    private String bimestre;
+    private String semestre;
+    private String reunião;
 
-
-
+    public String getMateriasEletivas() {
+        return materiasEletivas;
     }
 
-    public class aluno (double nota) {
+    public void setMateriasEletivas(String materiasEletivas) {
+        this.materiasEletivas = materiasEletivas;
+    }
 
+    public String getBimestre() {
+        return bimestre;
+    }
+
+    public void setBimestre(String bimestre) {
+        this.bimestre = bimestre;
+    }
+
+    public String getSemestre() {
+        return semestre;
+    }
+
+    public void setSemestre(String semestre) {
+        this.semestre = semestre;
+    }
+
+    public String getReunião() {
+        return reunião;
+    }
+
+    public void setReunião(String reunião) {
+        this.reunião = reunião;
     }
 }
